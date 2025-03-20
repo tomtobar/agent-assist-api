@@ -92,11 +92,11 @@ class SuggestedSolution(Base):
 
     def __repr__(self):
         return f"\n<SuggestedSolution \n" + \
-        f"id={self.id}\n" + \
-        f"content={self.content}\n" + \
-        f"supporting_docs={self.supporting_docs}\n" + \
-        f"feedback_good={self.feedback_good}\n" + \
-        f"ai_confidence_score={self.ai_confidence_score}\n" + \
-        f"tokens_used={self.tokens_used}\n" + \
-        f"processing_time={self.processing_time}\n" + \
+        f"\tid={self.id}\n" + \
+        f"\tcontent={self.content}\n" + \
+        f"\tsupporting_docs={self.supporting_docs}\n" + \
+        f"\tfeedback_good={self.feedback_good}\n" + \
+        f"\tai_confidence_score={self.ai_confidence_score}\n" + \
+        f"\ttokens_used={self.tokens_used}\n" + \
+        f"\tprocessing_time={self.processing_time}\n" + \
         ">"
