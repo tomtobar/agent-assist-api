@@ -66,11 +66,11 @@ class Prompt(Base):
 
     def __repr__(self):
         return f"\n<Prompt \n" + \
-        f"id={self.id}\n" + \
-        f"content={self.content}\n" + \
-        f"status={self.status}\n" + \
-        f"user_id={self.user_id}\n" + \
-        f"zd_ticket_id={self.zd_ticket_id}\n" + \
+        f"\tid={self.id}\n" + \
+        f"\tcontent={self.content}\n" + \
+        f"\tstatus={self.status}\n" + \
+        f"\tuser_id={self.user_id}\n" + \
+        f"\tzd_ticket_id={self.zd_ticket_id}\n" + \
         ">"
     
     
