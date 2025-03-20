@@ -1,0 +1,1 @@
+- Fetch all schools (using SA api??) including subdomain to link from frontend
