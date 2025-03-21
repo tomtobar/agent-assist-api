@@ -20,8 +20,6 @@ class User(Base):
         f"\tcreated_at={self.created_at}\n" + \
         f"\tupdated_at={self.updated_at}\n" + \
         ">"
-        
-
 
 class ZendeskTicket(Base):
     __tablename__ = 'zendesk_tickets'
