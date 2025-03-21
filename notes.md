@@ -2,8 +2,12 @@
 - Fetch all schools (using SA api??) including subdomain to link from frontend
 
 ## Todo
-- Think about routes
-- create routes
+- ✅ Think about routes
+- ✅ create routes
+- error handle Pinecone#retrieve_docs
+- error handle OpenaiHandler#get_ai_response
+- Add docstrings
+- bad at giving instructions on navigating the site. need to add text instructions on how to find each part of the site.
 
 ## Routes
 - POST, "/login":
@@ -37,3 +41,7 @@
     - Get User.prompt_history 
     - `return {"history": history}`
 
+## Questions
+- How do I add a new charge to a ledger?
+- How can I create a new field?
+- How to create a new email template?
